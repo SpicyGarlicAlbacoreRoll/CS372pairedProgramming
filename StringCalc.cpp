@@ -1,6 +1,17 @@
 #include <iostream>
-#include "StringCalc.h"
+#include <string>
+using std::string;
 
-int main() {
-    return 0;
+int Add(const std::string &num)
+{
+    if (num == "")
+    {
+        return 0;
+    }
+    else
+        {
+        return std::stoi(num);
+    }
+
+
 }
