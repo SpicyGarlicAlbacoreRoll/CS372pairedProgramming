@@ -3,4 +3,4 @@ project(CS372pairedProgramming)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CS372pairedProgramming StringCalc.cpp StringCalc.h)
+add_executable(CS372pairedProgramming test.cpp catch.hpp)
